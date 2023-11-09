@@ -1,0 +1,55 @@
+.note {
+    padding: 25px;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 226, 67);
+    border-radius: 40px;
+    box-shadow: rgba(201, 174, 174, 0.685)   3px 5px 5px 3px;
+}
+
+.note:hover {
+    color: aquamarine;
+    transition: 200ms;
+}
+
+.note-text {
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+
+}
+
+.icondel {
+    color: red;
+    font-size: x-large;
+    
+}
+
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.note-footer .icondel {
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+
+}
+
+.icondel:hover {
+    opacity: 1;
+}
+
+.note:hover .note-footer {
+    opacity: 1;
+
+}
