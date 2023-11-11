@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import {AiOutlinePlusCircle} from 'react-icons/ai'
-// import {MdDeleteSweep} from 'react-icons/md'
 import './sidebar.css'
 
 
